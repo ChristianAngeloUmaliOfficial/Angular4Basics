@@ -1,20 +1,38 @@
 import { Component } from '@angular/core'
 import { CollegeService } from './colleges.service'
 
+
 @Component({
     selector: 'colleges',
     template:
     `
-    <h2>Colleges</h2>
-    {{title}}
 
-    <ul>
-        <li *ngFor="let myColleges of colleges">
-        {{myColleges}}
-        </li>
+    <div class="container-fluid">
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
 
+        <h2>Colleges</h2>
+        {{title}}
 
-    </ul>
+       
+
+        <ul>
+            <li *ngFor="let myColleges of colleges">
+            {{myColleges}}
+            </li>
+        </ul>
+    </div>
+
 
     `, providers: [CollegeService]
 })
