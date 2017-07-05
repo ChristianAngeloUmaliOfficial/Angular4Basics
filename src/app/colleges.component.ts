@@ -8,18 +8,18 @@ import { CollegeService } from './colleges.service'
     `
 
     <div class="container-fluid">
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
-     <button type="button" class="btn btn-success" id="testButton" onClick="alert('test')">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
+     <button type="button" class="btn btn-success" id="testButton" onclick="test()">Test Button</button>
 
         <h2>Colleges</h2>
         {{title}}
